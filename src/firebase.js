@@ -7,13 +7,13 @@ import {
 } from "firebase/messaging";
 import { getAuth } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: "",
+    apiKey: "AIzaSyBkzba7xIgy0tI4Inhwp0M5n2BYZI8zFyo",
+    authDomain: "thirtymins-9e2f7.firebaseapp.com",
+    projectId: "thirtymins-9e2f7",
+    storageBucket: "thirtymins-9e2f7.firebasestorage.app",
+    messagingSenderId: "519858929897",
+    appId: "1:519858929897:web:ab2942d1f2e35a4366b078",
+    measurementId: "G-GS6679SKMX",
 };
 const firebaseApp = !getApps().length
   ? initializeApp(firebaseConfig)
